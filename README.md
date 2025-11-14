@@ -54,5 +54,3 @@ script.js
 ## Observação
 
 Projeto desenvolvido para o desafio técnico solicitado pela empresa (CIAg).
-Se quiser, posso deixar ele ainda mais enxuto.
-Se quiser também, posso montar certinho com indentação perfeita para você colar no GitHub.
