@@ -46,10 +46,11 @@ Não é necessário instalar dependências.
 ---
 
 ## Estrutura do Projeto
-
+---
 index.html   → Interface principal
 style.css    → Estilos
 script.js    → Lógica, APIs e diário
+---
 
 ---
 
