@@ -45,7 +45,8 @@ Não é necessário instalar dependências.
 
 index.html — Interface principal··
 style.css — Estilos··
-script.js — Lógica, APIs e diário··
+script.js — Lógica··
+
 
 ---
 
