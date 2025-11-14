@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel Meteorológico</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Painel Meteorológico -->
+  <div class="painel">
+    <h1>Painel Meteorológico</h1>
+
+    <div class="icone">
+      ☁️
+    </div>
+
+    <div class="busca">
+      <input type="text" id="cidade" placeholder="Digite o nome da cidade...">
+      <button id="botaoBuscar">Buscar</button>
+    </div>
+
+    <div class="info">
+      <div class="card">
+        <p><strong>Latitude:</strong> <span id="lat"></span></p>
+      </div>
+      <div class="card">
+        <p><strong>Longitude:</strong> <span id="lon"></span></p>
+      </div>
+      <div class="card">
+        <p><strong>Temperatura:</strong> <span id="temp">--</span> °C</p>
+      </div>
+      <div class="card">
+        <p><strong>Vento:</strong> <span id="vento">--</span> km/h</p>
+      </div>
+      <div class="card">
+        <p><strong>Direção:</strong> <span id="direcao">--</span>°</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Diário Meteorológico -->
+<div class="diario">
+  <h2>Diário Meteorológico</h2>
+
+  <form id="formDiario">
+    <label>Data:</label>
+    <input type="date" id="dataNota" required>
+
+    <label>Anotações:</label>
+    <textarea id="textoNota" placeholder="Como estava o tempo hoje?" required></textarea>
+
+    <button type="submit">Salvar Anotação</button>
+  </form>
+
+  <h3>Anotações Salvas</h3>
+  <div id="listaNotas"></div>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

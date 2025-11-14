@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;    
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;          
+  background: linear-gradient(135deg, #87cefa, #4682b4);
+  font-family: sans-serif;
+  padding-top: 20px;    
+}
+
+.painel {
+  background-color: #1E90FF;
+  color: white;
+  width: 350px;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.painel h1 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.icone {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.busca {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.busca input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.busca button {
+  padding: 8px 12px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card {
+  background-color: white;
+  color: #333;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.diario {
+  width: 350px;
+  background: #ffffffcc;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.diario h2, .diario h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#formDiario {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#formDiario input, #formDiario textarea, #formDiario button {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#formDiario button {
+  background-color: #1E90FF;
+  color: white;
+  cursor: pointer;
+}
+
+.nota {
+  background: white;
+  padding: 8px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.botoesNota {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+}
+
+.botoesNota button {
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
