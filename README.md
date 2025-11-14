@@ -63,5 +63,3 @@ script.js — Lógica
 ## Status
 
 Projeto finalizado e funcionando conforme os requisitos principais.
-Projeto finalizado e funcionando conforme os requisitos principais.
-Se quiser, posso revisar como ficou no GitHub depois que você colar.
