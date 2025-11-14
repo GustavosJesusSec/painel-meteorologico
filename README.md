@@ -30,14 +30,10 @@ As principais funcionalidades são:
 ## Como Executar
 
 1. Faça o download ou clone o repositório:
-
-git clone https://github.com/GustavosJesusSec/painel-meteorologico
-```
+   git clone [https://github.com/GustavosJesusSec/painel-meteorologico](https://github.com/GustavosJesusSec/painel-meteorologico)
 
 2. Acesse a pasta do projeto:
-
-cd painel-meteorologico
-```
+   cd painel-meteorologico
 
 3. Abra o arquivo **index.html** no navegador.
 
@@ -46,11 +42,10 @@ Não é necessário instalar dependências.
 ---
 
 ## Estrutura do Projeto
----
-index.html   → Interface principal
-style.css    → Estilos
-script.js    → Lógica, APIs e diário
----
+
+index.html — Interface principal
+style.css — Estilos
+script.js — Lógica, APIs e diário
 
 ---
 
@@ -67,3 +62,5 @@ script.js    → Lógica, APIs e diário
 ## Status
 
 Projeto finalizado e funcionando conforme os requisitos principais.
+Projeto finalizado e funcionando conforme os requisitos principais.
+Se quiser, posso revisar como ficou no GitHub depois que você colar.
