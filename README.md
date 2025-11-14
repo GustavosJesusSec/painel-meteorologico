@@ -31,13 +31,11 @@ As principais funcionalidades são:
 
 1. Faça o download ou clone o repositório:
 
-```bash
 git clone https://github.com/GustavosJesusSec/painel-meteorologico
 ```
 
 2. Acesse a pasta do projeto:
 
-```bash
 cd painel-meteorologico
 ```
 
@@ -49,11 +47,9 @@ Não é necessário instalar dependências.
 
 ## Estrutura do Projeto
 
-```
 index.html   → Interface principal
 style.css    → Estilos
 script.js    → Lógica, APIs e diário
-```
 
 ---
 
